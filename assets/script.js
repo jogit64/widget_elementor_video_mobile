@@ -1,12 +1,15 @@
 jQuery(document).ready(function ($) {
-  var video = $(".zenzone-video-widget video").get(0); // Obtient l'élément vidéo
+  // Cibler la vidéo à l'intérieur du conteneur spécifique
+  $(".zenzone-video-container").each(function () {
+    var container = $(this);
+    var video = container.find(".zenzone-video").get(0);
 
-  $(".votre-element-de-controle").on("click", function () {
-    // Vérifie si la vidéo est en train de jouer
-    if (video.paused) {
-      video.play();
-    } else {
-      video.pause();
-    }
+    container.find(".coque").on("click", function () {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    });
   });
 });

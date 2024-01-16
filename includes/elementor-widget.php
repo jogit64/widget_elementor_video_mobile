@@ -69,11 +69,21 @@ class Zenzones_Elementor_Video_Widget extends \Elementor\Widget_Base
         $video_link = $settings['video_link']['url'];
 
         if ($video_link) {
+            echo '<div class="zenzone-video-container">'; // Conteneur principal
+
+            // Conteneur de la vidéo
             echo '<div class="zenzone-video-widget">';
-            echo '<video controls muted loop style="width: 100%; height: auto;">';
+            echo '<video class="zenzone-video" controls muted loop style="width: 100%; height: auto;">';
             echo '<source src="' . esc_url($video_link) . '" type="video/mp4">';
             echo '</video>';
             echo '</div>';
+
+            // Élément de contrôle (coque)
+            echo '<div class="coque" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">';
+            // Ici, vous pouvez ajouter du contenu supplémentaire pour l'élément de contrôle si nécessaire
+            echo '</div>';
+
+            echo '</div>'; // Fin du conteneur principal
         }
     }
 }
