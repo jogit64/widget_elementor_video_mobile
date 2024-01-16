@@ -1,0 +1,10 @@
+/* Fichier style.css dans le dossier assets */
+.zenzone-video-widget {
+  max-width: 100%;
+  height: auto;
+}
+
+.zenzone-video-widget video {
+  border-radius: 15px; /* Ajustez cette valeur pour obtenir le rayon souhaité */
+  overflow: hidden; /* Assure que la vidéo ne dépasse pas les coins arrondis */
+}
