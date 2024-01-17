@@ -4,7 +4,7 @@
  * Plugin Name: Le Bon Univers Elementor Video/Mobile Widget
  * Description: Affichage de vidéos MP4 (muet) dans un cadre de téléphone mobile.
  * Version: 1.0
- * Author: Johannr/LeBonUnivers
+ * Author: LeBonUnivers/Johannr
  */
 
 if (!defined('ABSPATH')) {
