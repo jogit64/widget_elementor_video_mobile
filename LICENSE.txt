@@ -1,0 +1,373 @@
+Mozilla Public License Version 2.0
+= = = = = = = = = = = = = = = TAG1>
+
+1. Définitions
+--------------
+
+1.1. "Contributeur"
+    signifie chaque individu ou entité juridique qui crée, contribue à
+    la création ou possède un logiciel couvert.
+
+1.2. "Version contributeur"
+    signifie la combinaison des contributions d'autrui ( si ) utilisé
+    par un contributeur et la contribution de ce contributeur particulier.
+
+1.3. "Contribution"
+    signifie logiciel couvert d'un contributeur particulier.
+
+1.4. "Logiciel couvert"
+    signifie le formulaire de code source auquel le contributeur initial a joint
+    l'avis de la pièce A, le formulaire exécutable de ce code source
+    Formulaire et modifications de ce formulaire de code source, dans chaque cas
+    y compris des parties de celui-ci.
+
+1.5. "Incompatible avec les licences secondaires"
+    signifie
+
+    ( a ) que le contributeur initial a joint l'avis décrit
+        dans la pièce B du logiciel couvert; ou
+
+    ( b ) que le logiciel couvert a été mis à disposition selon les termes de
+        version 1.1 ou antérieure de la licence, mais pas également sous le
+        termes d'une licence secondaire.
+
+1.6. "Formulaire exécutable"
+    désigne toute forme de travail autre que le formulaire de code source.
+
+1.7. "Travail plus important"
+    signifie un travail qui combine le logiciel couvert avec d'autres matériaux, en
+    un ou plusieurs fichiers distincts, qui ne sont pas des logiciels couverts.
+
+1.8. "Licence"
+    signifie ce document.
+
+1.9. "Licensable"
+    signifie avoir le droit d'accorder, dans toute la mesure du possible,
+    que ce soit au moment de la subvention initiale ou ultérieurement,
+    tous les droits transmis par cette licence.
+
+1.10. "Modifications"
+    désigne l'un des éléments suivants:
+
+    ( a ) tout fichier sous forme de code source résultant d'un ajout à,
+        suppression ou modification du contenu de Covered
+        Logiciel; ou
+
+    ( b ) tout nouveau fichier dans le formulaire de code source qui contient tout couvert
+        Logiciel.
+
+1.11. "Créances de brevets" d'un contributeur
+    désigne toute revendication de brevet ( s ), y compris, sans limitation, la méthode,
+    les revendications de procédé et d'appareil, dans tout brevet concédé par un tel
+    Contributeur qui serait violé, mais pour l'octroi de la
+    Licence, par la fabrication, l'utilisation, la vente, l'offre à vendre,
+    fait, importation ou transfert de ses contributions ou de ses
+    Version contributeur.
+
+1.12. "Licence secondaire"
+    signifie soit la licence publique générale GNU, version 2.0, la GNU
+    Licence publique générale moindre, version 2.1, GNU Affero General
+    Licence publique, version 3.0, ou toute version ultérieure de ces
+    licences.
+
+1.13. "Formulaire de code source"
+    signifie la forme du travail préféré pour apporter des modifications.
+
+1.14. "Vous" ( ou "Votre" )
+    désigne une personne physique ou morale exerçant des droits en vertu de ce
+    Licence. Pour les personnes morales, "Vous" inclut toute entité qui
+    contrôle, est contrôlé par, ou est sous contrôle commun avec vous. Pour
+    fins de cette définition, "contrôle" signifie ( a ) la puissance, directe
+    ou indirect, pour provoquer la direction ou la gestion de cette entité,
+    que ce soit par contrat ou autrement, ou ( b ) propriété de plus de
+    cinquante pour cent ( 50% ) des actions en circulation ou bénéfiques
+    propriété de cette entité.
+
+2. Subventions de licence et conditions
+-------------------------------
+
+2.1. Subventions
+
+Chaque contributeur vous accorde par la présente un accord mondial sans redevance,
+licence non exclusive:
+
+( a ) en vertu des droits de propriété intellectuelle ( autres que les brevets ou marques )
+    Autorisé par ce contributeur à utiliser, reproduire, rendre disponible,
+    modifier, afficher, exécuter, distribuer et autrement exploiter son
+    Contributions, soit sur une base non modifiée, avec modifications, ou
+    dans le cadre d'un travail plus important; et
+
+( b ) en vertu des revendications de brevet de ce contributeur pour faire, utiliser, vendre, offrir
+    à vendre, avoir fait, importer et autrement transférer soit son
+    Contributions ou sa version contributeur.
+
+2.2. Date d'entrée en vigueur
+
+Les licences accordées à la section 2.1 pour toute contribution
+entrer en vigueur pour chaque contribution à la date de la première contribution du contributeur
+distribue une telle contribution.
+
+2.3. Limitations de la portée des subventions
+
+Les licences accordées dans cette section 2 sont les seuls droits accordés en vertu de
+cette licence. Aucun droit ou licence supplémentaire ne sera impliqué de la
+distribution ou licence du logiciel couvert sous cette licence.
+Nonobstant la section 2.1 ( b ) ci-dessus, aucune licence de brevet n'est accordée par un
+Contributeur:
+
+( a ) pour tout code qu'un contributeur a supprimé du logiciel couvert;
+    ou
+
+( b ) pour les infractions causées par: ( i ) Votre et tout autre tiers
+    modifications du logiciel couvert, ou ( ii ) la combinaison de son
+    Contributions avec d'autres logiciels ( sauf dans le cadre de son contributeur
+    Version ); ou
+
+( c ) en vertu des revendications de brevet enfreintes par le logiciel couvert en l'absence de
+    ses contributions.
+
+Cette licence n'accorde aucun droit sur les marques, marques de service,
+ou logos de tout contributeur ( sauf si nécessaire pour se conformer
+les exigences d'avis de la section 3.4 ).
+
+2.4. Licences ultérieures
+
+Aucun contributeur ne fait de subventions supplémentaires à la suite de votre choix de
+distribuer le logiciel couvert sous une version ultérieure de ce
+Licence ( voir Section 10.2 ) ou selon les termes d'une licence secondaire ( si
+autorisé en vertu de la section 3.3 ).
+
+2.5. Représentation
+
+Chaque contributeur représente que le contributeur croit que son
+Les contributions sont sa création originale ( s ) ou elle a des droits suffisants
+d'accorder les droits de ses contributions véhiculés par cette licence.
+
+2.6. Utilisation équitable
+
+Cette licence n'est pas destinée à limiter les droits que vous avez sous
+les doctrines applicables en matière de droit d'auteur d'utilisation équitable, d'utilisation équitable ou autres
+équivalents.
+
+2.7. Conditions
+
+Les sections 3.1, 3.2, 3.3 et 3.4 sont les conditions des licences accordées
+à la section 2.1.
+
+3. Responsabilités
+-------------------
+
+3.1. Distribution du formulaire source
+
+Toute distribution de logiciels couverts sous forme de code source, y compris
+Les modifications que vous créez ou auxquelles vous contribuez doivent être inférieures
+les termes de cette licence. Vous devez informer les destinataires que la Source
+La forme de code du logiciel couvert est régie par les termes de ce
+Licence et comment ils peuvent obtenir une copie de cette licence. Tu ne peux pas
+tenter de modifier ou de restreindre les droits des destinataires dans le code source
+Forme.
+
+3.2. Distribution du formulaire exécutable
+
+Si vous distribuez un logiciel couvert sous forme exécutable, alors:
+
+( a ) ce logiciel couvert doit également être disponible dans le code source
+    Formulaire, tel que décrit à la section 3.1, et vous devez informer les destinataires de
+    le formulaire exécutable comment ils peuvent obtenir une copie de ce code source
+    Formé par des moyens raisonnables en temps opportun, à un prix non plus
+    que le coût de distribution au destinataire; et
+
+( b ) Vous pouvez distribuer ce formulaire exécutable en vertu de ce
+    Licence ou sous-licence en termes différents, à condition que le
+    licence pour le formulaire exécutable n'essaie pas de limiter ou de modifier
+    les droits des destinataires dans le formulaire de code source sous cette licence.
+
+3.3. Répartition d'un travail plus important
+
+Vous pouvez créer et distribuer une œuvre plus importante selon les termes de votre choix,
+à condition que vous respectiez également les exigences de cette licence pour
+le logiciel couvert. Si le travail plus important est une combinaison de couvert
+Logiciel avec un travail régi par une ou plusieurs licences secondaires, et
+Le logiciel couvert n'est pas incompatible avec les licences secondaires, ce
+La licence vous permet de distribuer en outre ce logiciel couvert
+selon les termes de cette licence secondaire ( s ), de sorte que le destinataire de
+les travaux plus importants peuvent, à leur gré, distribuer davantage les couverts
+Logiciel selon les termes de cette licence ou de ce secondaire
+Licence ( s ).
+
+3.4. Avis
+
+Vous ne pouvez pas supprimer ou modifier la substance de tout avis de licence
+( y compris les avis de droit d'auteur, les avis de brevet, les exclusions de garantie,
+ou limitations de responsabilité ) contenues dans le formulaire de code source de
+le logiciel couvert, sauf que vous pouvez modifier tout avis de licence
+la mesure requise pour remédier aux inexactitudes factuelles connues.
+
+3.5. Application de conditions supplémentaires
+
+Vous pouvez choisir d'offrir et de facturer des frais pour la garantie, le support,
+obligations d'indemnisation ou de responsabilité envers un ou plusieurs destinataires de Couvert
+Logiciel. Cependant, vous ne pouvez le faire qu'en votre propre nom et non en votre nom
+au nom de tout contributeur. Vous devez dire clairement que tout
+cette garantie, assistance, indemnité ou obligation de responsabilité est offerte par
+Vous seul, et vous acceptez par la présente d'indemniser chaque contributeur pour tout
+responsabilité encourue par ce contributeur à la suite de la garantie, du soutien,
+conditions d'indemnisation ou de responsabilité que vous offrez. Vous pouvez inclure des informations supplémentaires
+exclusions de garantie et limitations de responsabilité spécifiques à tout
+juridiction.
+
+4. Incapacité à se conformer en raison des statuts ou des règlements
+-------------------------------------------------- -
+
+S'il vous est impossible de respecter l'une des conditions de cette
+Licence concernant tout ou partie du logiciel couvert en raison de
+statut, ordonnance judiciaire ou règlement alors vous devez: ( a ) respecter
+les termes de cette licence dans toute la mesure du possible; et ( b )
+décrire les limites et le code qu'elles affectent. Cette description doit
+être placé dans un fichier texte inclus avec toutes les distributions du couvert
+Logiciel sous cette licence. Sauf dans la mesure interdite par la loi
+ou règlement, cette description doit être suffisamment détaillée pour un
+récipiendaire d'une compétence ordinaire pour pouvoir la comprendre.
+
+5. Fin de la fin
+--------------
+
+5.1. Les droits accordés sous cette licence prendront fin automatiquement
+si vous ne respectez aucune de ses conditions. Cependant, si vous devenez
+conforme, puis les droits accordés en vertu de cette licence à partir d'un particulier
+Le contributeur est réintégré ( a ) provisoirement, sauf et jusqu'à ce que
+Le contributeur met fin explicitement et finalement à vos subventions, et ( b ) sur un
+sur une base continue, si ce contributeur ne vous informe pas
+non-conformité par certains moyens raisonnables avant 60 jours après
+revenir en conformité. De plus, vos subventions d'un particulier
+Le contributeur est rétabli de façon continue si ce contributeur
+vous informe de la non-conformité par des moyens raisonnables, c'est le
+première fois que vous avez reçu un avis de non-conformité à cette licence
+de ce contributeur, et vous devenez conforme avant 30 jours après
+Votre réception de l'avis.
+
+5.2. Si vous engagez un litige contre une entité en faisant valoir un brevet
+réclamation en contrefaçon ( à l'exclusion des actions en jugement déclaratoire,
+demandes reconventionnelles et demandes reconventionnelles ) alléguant qu'une version contributeur
+enfreint directement ou indirectement tout brevet, puis les droits accordés à
+Vous par tous les contributeurs pour le logiciel couvert sous la section
+2.1 de cette licence prendra fin.
+
+5.3. En cas de résiliation en vertu des sections 5.1 ou 5.2 ci-dessus, tous
+accords de licence d'utilisateur final ( à l'exclusion des distributeurs et revendeurs ) qui
+ont été valablement accordés par vous ou vos distributeurs sous cette licence
+avant la résiliation doit survivre à la résiliation.
+
+************************************************************************
+*                                                                      *
+*  6. Avis de non-responsabilité de la garantie                                           *
+*  -------------------------                                           *
+*                                                                      *
+*  Le logiciel couvert est fourni sous cette licence sur un "tel quel"       *
+*  base, sans garantie d'aucune sorte, exprimée, implicite ou  *
+*  statutaire, y compris, sans limitation, garantit que le       *
+*  Le logiciel couvert est exempt de défauts, commercialisable, apte à un        *
+*  objectif particulier ou non contrefaisant. L'ensemble du risque quant au     *
+*  la qualité et les performances du logiciel couvert sont avec vous.        *
+*  Si un logiciel couvert s'avère défectueux à quelque égard que ce soit, vous     *
+*  ( aucun contributeur ) n'assume le coût de tout entretien nécessaire,   *
+*  réparation ou correction. Cette clause de non-responsabilité de la garantie constitue un   *
+*  partie essentielle de cette licence. Aucune utilisation d'un logiciel couvert n'est   *
+*  autorisé en vertu de cette licence sauf en vertu de cette clause de non-responsabilité.         *
+*                                                                      *
+************************************************************************
+
+************************************************************************
+*                                                                      *
+*  7. Limitation de responsabilité                                          *
+*  --------------------------                                          *
+*                                                                      *
+*  En aucun cas et en aucune théorie juridique, qu'il s'agisse de délit      *
+*  ( y compris la négligence ), le contrat ou autrement, tout           *
+*  Contributeur, ou toute personne qui distribue le logiciel couvert en tant que          *
+*  autorisé ci-dessus, être responsable envers vous de tout direct, indirect,         *
+*  dommages spéciaux, accessoires ou consécutifs de tout caractère      *
+*  y compris, sans limitation, les dommages et intérêts pour manque à gagner, perte de    *
+*  bonne volonté, arrêt de travail, défaillance ou dysfonctionnement de l'ordinateur, ou tout    *
+*  et tous les autres dommages ou pertes commerciaux, même si cette partie      *
+*  aura été informé de la possibilité de tels dommages. Cette   *
+*  la limitation de responsabilité ne s'applique pas à la responsabilité en cas de décès ou   *
+*  blessure corporelle résultant de la négligence de cette partie envers le       *
+*  la loi applicable interdit une telle limitation. Certains               *
+*  les juridictions ne permettent pas l'exclusion ou la limitation de           *
+*  dommages accessoires ou consécutifs, donc cette exclusion et          *
+*  la limitation peut ne pas s'appliquer à vous.                                    *
+*                                                                      *
+************************************************************************
+
+8. Litige
+-------------
+
+Tout litige relatif à cette Licence ne peut être introduit que dans le
+tribunaux d'une juridiction où le défendeur maintient son principal
+le lieu d'affaires et ce litige sont régis par des lois de ce
+compétence, sans référence à ses dispositions en matière de conflit de lois.
+Rien dans la présente section n'empêche la capacité d'une partie à apporter
+demandes croisées ou demandes reconventionnelles.
+
+9. Divers
+----------------
+
+Cette licence représente l'accord complet concernant le sujet
+matière de ici. Si une disposition de cette licence est tenue
+inapplicable, cette disposition ne sera réformée que dans la mesure où
+nécessaire pour le rendre exécutoire. Toute loi ou tout règlement qui prévoit
+que la langue d'un contrat doit être interprétée contre le rédacteur
+ne doit pas être utilisé pour interpréter cette licence contre un contributeur.
+
+dix. Versions de la licence
+---------------------------
+
+10.1. Nouvelles versions
+
+La Fondation Mozilla est le délégué syndical. Sauf dans les cas prévus à la section
+10.3, nul autre que le délégué syndical n'a le droit de modifier ou
+publier de nouvelles versions de cette licence. Chaque version recevra un
+numéro de version distinctif.
+
+10.2. Effet des nouvelles versions
+
+Vous pouvez distribuer le logiciel couvert selon les termes de la version
+de la licence sous laquelle vous avez initialement reçu le logiciel couvert,
+ou selon les termes de toute version ultérieure publiée par la licence
+steward.
+
+10.3. Versions modifiées
+
+Si vous créez un logiciel non régi par cette licence et que vous souhaitez
+créer une nouvelle licence pour un tel logiciel, vous pouvez créer et utiliser un
+version modifiée de cette licence si vous renommez la licence et supprimez
+toute référence au nom du délégué syndical ( sauf pour noter que
+cette licence modifiée diffère de cette licence ).
+
+10.4. Formulaire de code source de distribution incompatible avec le secondaire
+Licences
+
+Si vous choisissez de distribuer un formulaire de code source incompatible avec
+Licences secondaires selon les termes de cette version de la Licence, la
+un avis décrit dans la pièce B de cette licence doit être joint.
+
+Pièce A - Avis de licence de formulaire de code source
+-------------------------------------------
+
+  Ce formulaire de code source est soumis aux termes du public Mozilla
+  Licence, v. 2.0. Si une copie de la MPL n'a pas été distribuée avec cela
+  fichier, vous pouvez en obtenir un à http://mozilla.org/MPL/2.0/.
+
+S'il n'est pas possible ou souhaitable de mettre l'avis dans un particulier
+fichier, alors vous pouvez inclure l'avis dans un emplacement ( tel qu'un LICENSE
+fichier dans un répertoire pertinent ) où un destinataire serait susceptible de chercher
+pour un tel avis.
+
+Vous pouvez ajouter des avis précis supplémentaires de propriété des droits d'auteur.
+
+Pièce B - Avis «Incompatible avec les licences secondaires»
+-------------------------------------------------- -----------------------
+
+  Ce formulaire de code source est "Incompatible avec les licences secondaires", comme
+  défini par la licence publique Mozilla, v. 2.0.
