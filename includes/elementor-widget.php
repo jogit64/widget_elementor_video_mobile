@@ -50,14 +50,14 @@ class Zenzones_Elementor_Video_Widget extends \Elementor\Widget_Base
             ]
         );
 
-        $this->add_group_control(
-            \Elementor\Group_Control_Image_Size::get_type(),
-            [
-                'name' => 'image_size',
-                'label' => __('Image Size', 'plugin-zenzones'),
-                'default' => 'large',
-            ]
-        );
+        // $this->add_group_control(
+        //     \Elementor\Group_Control_Image_Size::get_type(),
+        //     [
+        //         'name' => 'image_size',
+        //         'label' => __('Image Size', 'plugin-zenzones'),
+        //         'default' => 'large',
+        //     ]
+        // );
 
 
         $this->end_controls_section();
