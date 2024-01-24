@@ -1,5 +1,7 @@
 # Le Bon Univers Elementor Video/Mobile Widget
 
+Démo : https://zenzones.fr/
+
 Ce plugin pour WordPress permet l'affichage de vidéos MP4 (muet) dans un cadre de téléphone mobile, offrant une manière élégante et intuitive de présenter des vidéos sur des sites web utilisant Elementor.
 
 ## Fonctionnalités
