@@ -1,11 +1,9 @@
-/*
-* Ceci est un exemple de fichier source pour le projet Widget_elementor_video_mobile
+<!-- * Ceci est un exemple de fichier source pour le projet Widget_elementor_video_mobile
 *
 * Copyright (c) 2024 johannr / lebonunivers
 * Ce fichier est sous la Mozilla Public License, version 2.0.
 * Si une copie de la MPL n'a pas été fournie avec ce fichier, vous pouvez l'obtenir à
-* https://mozilla.org/MPL/2.0/.
-*/
+* https://mozilla.org/MPL/2.0/. -->
 
 
 <?php
@@ -99,7 +97,8 @@ class lebonunivers_Elementor_Video_Widget extends \Elementor\Widget_Base
 
             // Conteneur de la vidéo
             echo '<div class="lebonunivers-video-widget">';
-            echo '<video class="lebonunivers-video" controls muted loop style="width: 100%; height: auto;">';
+            // echo '<video class="lebonunivers-video" controls muted loop style="width: 100%; height: auto;">';
+            echo '<video class="lebonunivers-video" muted style="width: 100%; height: auto;">';
             echo '<source src="' . esc_url($video_link) . '" type="video/mp4">';
             echo '</video>';
             echo '</div>';
