@@ -1,22 +1,27 @@
 jQuery(document).ready(function ($) {
-  // Cibler la vidéo à l'intérieur du conteneur spécifique
   $(".lebonunivers-video-container").each(function () {
     var container = $(this);
     var video = container.find(".lebonunivers-video").get(0);
+    var playIcon = container.find(".play-icon");
 
-    container.find(".coque").on("click", function () {
+    // Afficher l'icône Play lorsque la vidéo est en pause
+    if (video.paused) {
+      playIcon.show();
+    }
+
+    container.find(".coque, .play-icon").on("click", function () {
       if (video.paused) {
         video.play();
+        playIcon.hide();
       } else {
         video.pause();
+        playIcon.show();
       }
     });
 
-    // Ajouter un gestionnaire pour l'événement 'ended' de la vidéo
     $(video).on("ended", function () {
-      // Remettre la vidéo au début
       video.currentTime = 0;
-      // Vous pouvez également ajouter video.pause(); ici si vous voulez vous assurer que la vidéo est en pause
+      playIcon.show();
     });
   });
 });

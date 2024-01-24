@@ -83,6 +83,19 @@ class lebonunivers_Elementor_Video_Widget extends \Elementor\Widget_Base
         );
 
 
+        $this->add_control(
+            'play_icon',
+            [
+                'label' => __('Play Icon', 'plugin-lebonunivers'),
+                'type' => \Elementor\Controls_Manager::MEDIA,
+                'default' => [
+                    'url' => plugins_url('../assets/playbtn.png', __FILE__),
+                ],
+            ]
+        );
+
+
+
         $this->end_controls_section();
     }
 
@@ -91,13 +104,13 @@ class lebonunivers_Elementor_Video_Widget extends \Elementor\Widget_Base
         $settings = $this->get_settings_for_display();
         $video_link = $settings['video_link']['url'];
         $coque_image = $settings['coque_image']['url'];
+        $play_icon = $settings['play_icon']['url'];
 
         if ($video_link && $coque_image) {
             echo '<div class="lebonunivers-video-container">'; // Conteneur principal
 
             // Conteneur de la vidéo
             echo '<div class="lebonunivers-video-widget">';
-            // echo '<video class="lebonunivers-video" controls muted loop style="width: 100%; height: auto;">';
             echo '<video class="lebonunivers-video" muted style="width: 100%; height: auto;">';
             echo '<source src="' . esc_url($video_link) . '" type="video/mp4">';
             echo '</video>';
@@ -106,7 +119,12 @@ class lebonunivers_Elementor_Video_Widget extends \Elementor\Widget_Base
             // Image de la coque
             echo '<img src="' . esc_url($coque_image) . '" class="coque" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">';
 
-            echo '</div>'; // Fin du conteneur principal
+            // Icône Play
+            if ($play_icon) {
+                echo '<img src="' . esc_url($play_icon) . '" class="play-icon" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none; cursor: pointer;">';
+            }
+
+            echo '</div>';
         }
     }
 }
